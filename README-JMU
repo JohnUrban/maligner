@@ -1,0 +1,9 @@
+07/23/2017
+Changed:
+static int max_query_frags = 50
+To:
+static int max_query_frags = 5000
+
+In both the following files:
+./src/bin/maligner_dp_includes.h
+./src/bin/maligner_vd_includes.h

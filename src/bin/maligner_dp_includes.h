@@ -87,7 +87,7 @@ namespace maligner_dp {
       static bool reference_is_circular = false;
       static double min_mad = 1.0; // Minimum mad to use when computing mad scores.
       static int min_query_frags = 3;
-      static int max_query_frags = 50;
+      static int max_query_frags = 5000;
   }
 
 }
