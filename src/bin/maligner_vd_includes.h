@@ -88,7 +88,7 @@ namespace maligner_vd {
       static bool reference_is_circular = false;
       static double min_mad = 1.0; // Minimum mad to use when computing mad scores.
       static int min_query_frags = 3;
-      static int max_query_frags = 5000;
+      static int max_query_frags = 50000;
       static int min_aln_chunks = 5; // Minimum number of chunks to report a prefix/suffix alignment.
       static double max_m_score = -5.0; // Maximum m_score to report an alignment.
 
